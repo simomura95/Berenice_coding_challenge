@@ -1,0 +1,11 @@
+<!-- Add new todo item -->
+<div class="mt-4">
+  <p class="text-sm-start text-center lead">Add a new item</p>
+  <form #form="ngForm" (ngSubmit)="addTodoItem()" class="d-flex flex-sm-row flex-column gap-1">
+      <div class="flex-fill">
+          <input type="text" class="form-control mb-1" id="newTitle" name="newTitle" placeholder="Title" [(ngModel)]="newTodoItem.title">
+          <input type="text" class="form-control" id="newContent" name="newContent" placeholder="Content" [(ngModel)]="newTodoItem.content">
+      </div>
+      <button type="submit" class="btn btn-sm btn-primary">Add</button>
+  </form>
+</div>

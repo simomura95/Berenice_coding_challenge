@@ -1,0 +1,20 @@
+.title {
+  margin-bottom: 0;
+  font-size: 18px;
+  color: rgb(230, 43, 43);
+}
+
+.content {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.item-normal {
+  background-color: aliceblue;
+  min-width: 120px;
+}
+
+.item-editing {
+  background-color: rgb(243, 227, 208);
+  min-width: 120px;
+}
